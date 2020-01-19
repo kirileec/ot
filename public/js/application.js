@@ -35,7 +35,7 @@
     console.log("open");
     $('#conn-status').text('已连接');
     $('#join-btn').attr({ disabled: false});
-    $('#leave-btn').attr({disabled: false});
+    $('#leave-btn').attr({ disabled: false});
   });
 
   conn.on('close', function (evt) {
